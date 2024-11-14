@@ -62,7 +62,7 @@ const Header: React.FC = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="block py-2 text-gray-900 hover:text-white transition-colors"
+                className="block py-2 text-gray-500 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
