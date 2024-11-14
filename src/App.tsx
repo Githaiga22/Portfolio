@@ -83,19 +83,25 @@ function App() {
 
   return (
     <div className="min-h-screen text-white">
-      {/* Hero Section with Background Image */}
-      <div className="h-screen relative bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('/file1.jpg')" }}>
-        <div className="absolute inset-0 bg-black/30" />
+      {/* Hero Section with Responsive Background Image */}
+      <div 
+        className="min-h-screen relative bg-cover bg-center bg-no-repeat" 
+        style={{ 
+          backgroundImage: "url('/file1.jpg')",
+          backgroundAttachment: "scroll" // Changed from fixed for better mobile support
+        }}
+      >
+        <div className="absolute inset-0 bg-black/20 backdrop-blur-[0.001px]" />
         <Header />
 
-        <section className="relative h-screen flex flex-col justify-center items-center px-4 ">
+        <section className="relative h-screen flex flex-col justify-center items-center px-4 py-20">
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <div className="inline-block animate-float">
-              <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
+            <h1 className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
                 Allan Robinson Kamau
               </h1>
             </div>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8">
+            <p className="text-lg md:text-2xl text-gray-1000 mb-8">
               Software Developer
             </p>
             <div className="flex gap-4 justify-center mb-12">
