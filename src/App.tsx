@@ -143,7 +143,7 @@ function App() {
                   description="Code Ujuzi is an  AI-powered coding app that accelerates learning by providing real-time translations into African languages, utilizing Llama models to enhance understanding in software development."
                   image="small_logo.png"
                   tags={['GO', 'Llama 3.2', 'JS']}
-                  link="https://github.com/codeujuzi/codeujuzi.github.io"
+                  link="https://codeujuzi-github-io.onrender.com/"
                 />
                 <ProjectCard
                   title="Tic-Tac-Toe Board Game "
