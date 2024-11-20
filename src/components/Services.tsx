@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Palette, Briefcase, FileText } from 'lucide-react';
+import { Code, Palette/*, Briefcase, FileText*/ } from 'lucide-react';
 
 const Services: React.FC = () => {
   const services = [
@@ -14,19 +14,19 @@ const Services: React.FC = () => {
       title: "UI/UX Design and Optimization",
       description: "Designing intuitive, engaging experiences that capture your brand and enhance user satisfaction.",
       image: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&q=80&w=800"
-    },
-    {
-      icon: <Briefcase className="w-12 h-12" />,
-      title: "IT Consultancy",
-      description: "Strategic technology guidance to help your business grow and succeed.",
-      image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=800"
-    },
-    {
-      icon: <FileText className="w-12 h-12" />,
-      title: "Company Profiles",
-      description: "Professional documentation and presentation of your business identity.",
-      image: "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80&w=800"
-    }
+     },
+    // {
+    //   icon: <Briefcase className="w-12 h-12" />,
+    //   title: "IT Consultancy",
+    //   description: "Strategic technology guidance to help your business grow and succeed.",
+    //   image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=800"
+    // },
+    // {
+    //   icon: <FileText className="w-12 h-12" />,
+    //   title: "Company Profiles",
+    //   description: "Professional documentation and presentation of your business identity.",
+    //   image: "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80&w=800"
+    // }
   ];
 
   return (
