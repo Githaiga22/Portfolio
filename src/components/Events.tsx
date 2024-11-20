@@ -22,7 +22,7 @@ const Events: React.FC = () => {
     {
       title: "kisumu Gophers 2024",
       role: "Contributor",
-      topic: "GO routines and channels",
+      topic: "API's",
       date: "November 2024",
       location: "Lakehub, Kisumu",
       image: "file3.jpeg"
