@@ -65,20 +65,20 @@ function App() {
 };
 
   const skills = [
-    { name: 'Go', level: 'Expert' },
-    { name: 'JavaScript', level: 'Expert' },
-    { name: 'Python', level: 'Intermediate' },
-    { name: 'MySQL', level: 'Advanced' },
-    { name: 'Rust', level: 'Intermediate' },
-    { name: 'C', level: 'Intermediate' },
-    { name: 'CSS', level: 'Expert' },
-    { name: 'HTML5', level: 'Expert' },
-    { name: 'React', level: 'Expert' },
-    { name: 'TypeScript', level: 'Advanced' },
-    { name: 'Node.js', level: 'Advanced' },
-    { name: 'UI/UX', level: 'Advanced' },
-    { name: 'Docker', level: 'Expert' },
-    { name: 'AWS', level: 'Advanced' },
+    { name: 'Go', level: 'Intermediate' },
+    { name: 'JavaScript', level: 'Intermediate' },
+    // { name: 'Python', level: 'Intermediate' },
+    // { name: 'MySQL', level: 'Advanced' },
+    // { name: 'Rust', level: 'Intermediate' },
+    // { name: 'C', level: 'Intermediate' },
+    { name: 'CSS', level: 'Intermediate' },
+    { name: 'HTML5', level: 'Intermediate' },
+    { name: 'React', level: 'Intermediate' },
+    // { name: 'TypeScript', level: 'Advanced' },
+    // { name: 'Node.js', level: 'Advanced' },
+    { name: 'UI/UX', level: 'Intermediate' },
+    { name: 'Docker', level: 'Intermediate' },
+    // { name: 'AWS', level: 'Advanced' },
   ] as const;
 
   return (
