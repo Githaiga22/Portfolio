@@ -20,6 +20,14 @@ const Events: React.FC = () => {
       image: "file4.JPG"
     },
     {
+      title: "Pint of Science 2023",
+      role: "Panelist",
+      topic: "AI in Modern Applications",
+      date: "May 2024",
+      location: "Lakehub, Kisumu",
+      image: "file6.JPG"
+    },
+    {
       title: "kisumu Gophers 2024",
       role: "Contributor",
       topic: "API's",
@@ -28,12 +36,20 @@ const Events: React.FC = () => {
       image: "file3.jpeg"
     },
     {
-      title: "Pint of Science 2023",
+      title: "Post-Devcon Kenya",
+      role: "Atendee",
+      topic: "Empowering kenya for web3",
+      date: "Dec 2024",
+      location: "Mega Cinema, Kisumu",
+      image: "file8.jpeg"
+    },
+    {
+      title: "Code & Cheer Hackathon",
       role: "Panelist",
-      topic: "AI in Modern Applications",
-      date: "May 2024",
-      location: "Lakehub, Kisumu",
-      image: "file6.JPG"
+      topic: "Digital tools for small Business",
+      date: "Dec 2024",
+      location: "LakeHub, Kisumu",
+      image: "file1.jpeg"
     }
   ];
 
