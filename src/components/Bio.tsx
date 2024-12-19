@@ -10,7 +10,7 @@ const Bio: React.FC = () => {
           <div className="grid md:grid-cols-[2fr,1fr] gap-8">
             <div className="space-y-4">
               <p className="text-gray-300 leading-relaxed">
-              I'm Allan Robinson, a passionate full-stack developer with over 1+ years of experience specializing in GO and currently workking on Artificial Intelligence related projects.
+              I'm Allan Robinson, a passionate full-stack developer with over 1+ years of experience specializing in GO and currently working on Blockchain related projects.
                 My journey in tech started with a curiosity about how things work, which evolved into a career
                 building innovative solutions for complex problems.
               </p>
