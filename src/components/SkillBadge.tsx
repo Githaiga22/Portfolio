@@ -14,6 +14,7 @@ import {
   SiNodedotjs,
   SiFigma,
   SiDocker,
+  SiSolidity,
  
 } from 'react-icons/si' ;
 
@@ -40,6 +41,7 @@ const getSkillIcon = (name: string) => {
     case 'node.js': return <SiNodedotjs {...iconProps} />;
     case 'ui/ux': return <SiFigma {...iconProps} />;
     case 'docker': return <SiDocker {...iconProps} />;
+    case 'solidity': return <SiSolidity {...iconProps} />;
     default: return null;
   }
 };
