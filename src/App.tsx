@@ -78,6 +78,7 @@ function App() {
     // { name: 'Node.js', level: 'Advanced' },
     { name: 'UI/UX', level: 'Intermediate' },
     { name: 'Docker', level: 'Intermediate' },
+    {name: 'solidity', level: "Intermediate"},
     // { name: 'AWS', level: 'Advanced' },
   ] as const;
 
@@ -151,6 +152,13 @@ function App() {
                   image="tic-tac-toe-game.avif"
                   tags={['GO']}
                   link="https://github.com/Githaiga22/TicTacToe-Game-An-Implementation-of-CS50-Introduction-to-Artificial-Intelligence-"
+                />
+                  <ProjectCard
+                  title="BizFloor "
+                  description="BizFloor is a secure escrow platform with integrated scheduling and booking, tailored for corporate service providers in urban areas."
+                  image="Bizfloor.png"
+                  tags={['GO']}
+                  link="https://github.com/Githaiga22/BizFloor"
                 />
                 
               </div>
