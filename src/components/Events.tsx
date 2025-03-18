@@ -15,12 +15,12 @@ const Events: React.FC = () => {
       title: "Google Developer Groups(GDG) 2024",
       role: "Participant",
       topic: "Build with AI",
-      date: "June 2023",
+      date: "June 2024",
       location: "UON, Kisumu",
       image: "file4.JPG"
     },
     {
-      title: "Pint of Science 2023",
+      title: "Pint of Science 2024",
       role: "Panelist",
       topic: "AI in Modern Applications",
       date: "May 2024",
