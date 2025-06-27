@@ -5,28 +5,18 @@ const Services: React.FC = () => {
   const services = [
     {
       icon: <Code className="w-12 h-12" />,
-      title: "Web Development",
-      description: "Custom web applications built with modern technologies and best practices.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800"
+      title: " Ethereum Smart Contract Development & Web3 Solutions",
+      description: "Design, build, and deploy secure smart contracts, scalable dApps, and blockchain-based systems on Ethereum",
+      image: '/ETH.png'
     },
     {
       icon: <Palette className="w-12 h-12" />,
-      title: "UI/UX Design and Optimization",
-      description: "Designing intuitive, engaging experiences that capture your brand and enhance user satisfaction.",
-      image: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&q=80&w=800"
+      title: " Developer Education & Community Leadership",
+      description: "Empowering the next generation of builders through technical education, mentorship, and community-driven initiatives",
+      image: '/community.jpeg'
+      // image: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&q=80&w=800"
      },
-    // {
-    //   icon: <Briefcase className="w-12 h-12" />,
-    //   title: "IT Consultancy",
-    //   description: "Strategic technology guidance to help your business grow and succeed.",
-    //   image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=800"
-    // },
-    // {
-    //   icon: <FileText className="w-12 h-12" />,
-    //   title: "Company Profiles",
-    //   description: "Professional documentation and presentation of your business identity.",
-    //   image: "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80&w=800"
-    // }
+    
   ];
 
   return (
