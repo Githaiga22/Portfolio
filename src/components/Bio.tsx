@@ -10,16 +10,19 @@ const Bio: React.FC = () => {
           <div className="grid md:grid-cols-[2fr,1fr] gap-8">
             <div className="space-y-4">
               <p className="text-gray-300 leading-relaxed">
-              I'm Allan Robinson, a passionate full-stack developer with over 1+ years of experience specializing in GO and currently working on Blockchain related projects.
-                My journey in tech started with a curiosity about how things work, which evolved into a career
-                building innovative solutions for complex problems.
+                Hi, I'm Allan Robinson — a passionate Full-stack and blockchain developer from Kenya with 2 years of hands-on experience building scalable web applications and impactful Web3 solutions.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                When I'm not coding, you'll find me contributing to open-source projects, writing technical
-                articles, working on IoT innovations, or speaking at tech conferences about emerging technologies and best practices.
+                I specialize in Go (Golang) & Rust for backend systems and am actively working on decentralized applications that aim to solve real-world problems through blockchain.
+              </p>
+              <p className="text-gray-300 leading-relaxed">
+                I'm the co-founder of IMARA — a decentralized innovation platform connecting builders, innovators, and investors.
+              </p>
+              <p className="text-gray-300 leading-relaxed">
+                I'm also the co-founder of Web3way, an initiative dedicated to empowering Africa's grassroots developers to harness blockchain and unlock boundless opportunities.
               </p>
               <a
-                href="/cv.pdf"
+                href="/cv2.pdf"
                 download
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-emerald-500
                 text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity mt-4"
@@ -32,16 +35,22 @@ const Bio: React.FC = () => {
               <h3 className="text-xl font-semibold">Quick Facts</h3>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-center gap-2">
-                  <span>🌍</span> Based in Kisumu
+                  <span>🌍</span> Based in Kenya
                 </li>
                 <li className="flex items-center gap-2">
                   <span>💼</span> Software Developer at Zone01 Kisumu
                 </li>
                 <li className="flex items-center gap-2">
+                  <span>🎓</span> Certified Blockchain Developer - Lisk (2025)
+                </li>
+                <li className="flex items-center gap-2">
+                  <span>🎓</span> Pokadot Blockchain Academy - Polkadot (2025)
+                </li>
+                <li className="flex items-center gap-2">
                   <span>🎓</span> B.Sc. Bachelors Degree Economics & Finance
                 </li>
                 <li className="flex items-center gap-2">
-                  <span>🌱</span> Founder of CodeUjuzi App
+                  <span>🌱</span> Founder of IMARA
                 </li>
               </ul>
             </div>
